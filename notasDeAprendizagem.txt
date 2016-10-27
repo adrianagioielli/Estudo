@@ -1,0 +1,34 @@
+observações:
+
+configurações iniciais:
+	$ git config --global user.name "Nome pode ter espaços"
+	$ git config --global user.email email@completo.com
+
+para saber em que pasta o bash está rodando:
+	$ echo ~
+
+abrir um diretório:
+	$ cd ~/nomeDaPasta
+	ou
+	$ cd endereco/completo/do/arquivo
+
+iniciar o gerenciador:
+	$ git init
+
+informar o status de todos os arquivos do diretório
+	$ git status
+
+adicionar um arquivo que passa a ser rastreado mas não gravado:
+	$ git add nomeDoArquivo.extensao
+
+.gitignore:
+
+	- o arquivo .gitignore contem o nome de todos os arquivos do meu projeto que eu não desejo que sejam utilizados temporaria ou permanentemente. (ex: um arquivo com as tarefas do projeto, ou tarefa de uma determinada pasta)
+
+	- se quisermos ignorar arquivos com uma extensão específica, devemos colocar *.extensão (ex: todos os arquivos em pdf devem ser ignorados, logo no .gitignore deve constar *.pdf. se for uma extensão em um subdiretório, ex todo .bmp de fotos, devemos inserir fotos/*.bmp)
+
+gravar um arquivo no repositório com comentário:
+	$ git commit -m "comentário"
+
+gravar apenas a diferença de arquivos modificados:
+	$git commit -a -m "Inserindo título, diminuindo tamanho da pagina, inserindo primeiras notas"
