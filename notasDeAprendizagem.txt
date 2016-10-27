@@ -31,4 +31,6 @@ gravar um arquivo no repositório com comentário:
 	$ git commit -m "comentário"
 
 gravar apenas a diferença de arquivos modificados:
-	$git commit -a -m "Inserindo título, diminuindo tamanho da pagina, inserindo primeiras notas"
+	$git commit -a -m "comentario 2"
+	ou
+	$ git commit -am "comentario 2"	
